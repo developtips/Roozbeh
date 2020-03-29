@@ -1,0 +1,23 @@
+* {
+    border: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+section {
+    background-image: linear-gradient(-90deg, #a0247f, #5e2973);
+    padding: 10px;
+}
+.flex-ticker {
+    /*background: rgba(255,255,255,0.1);*/
+    border-radius: 5px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: 10px;
+    width: 100%;
+}
+.flex-ticker__text {
+    direction: rtl;
+    text-align: right;
+    color: white;
+}
